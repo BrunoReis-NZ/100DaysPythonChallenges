@@ -108,13 +108,13 @@
 #     case _:
 #         print("Invalid day number")
 
-print("11. Using or Pattern in Switch Case")
-# Write a program where the user enters a single letter,
-# and you print whether it’s a vowel or consonant. Use a dictionary for mapping.
-
-single_letter = input("Enter a single letter: ").lower()
-match single_letter:
-    case "a" | "e" | "i" | "o" |"u":
-        print("Its a vowel")
-    case _:
-        print("Its a consonant")
+# print("11. Using or Pattern in Switch Case")
+# # Write a program where the user enters a single letter,
+# # and you print whether it’s a vowel or consonant. Use a dictionary for mapping.
+#
+# single_letter = input("Enter a single letter: ").lower()
+# match single_letter:
+#     case "a" | "e" | "i" | "o" |"u":
+#         print("Its a vowel")
+#     case _:
+#         print("Its a consonant")
