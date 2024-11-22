@@ -91,3 +91,6 @@ print("\n12. Reverse Names")
 names_3 = ["Bruno", "Taise", "Coralina", "Lila"]
 for name in names_3:
     print(f"The name {name} reversed is {''.join(reversed(name))}")
+
+
+
